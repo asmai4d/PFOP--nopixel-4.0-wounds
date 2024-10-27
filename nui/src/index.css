@@ -1,0 +1,76 @@
+@import "https://assets.subliminalrp.net/web/fonts/gilroy/stylesheet.css";
+@import "https://assets.subliminalrp.net/web/fonts/nekst/stylesheet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	overflow: hidden;
+	margin: 0;
+}
+/* background-image: url(https://i.imgur.com/wJyBHGM.jpg);
+background-size: cover; */
+
+*,
+:before,
+:after {
+	border-width: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 1921px) {
+	:root {
+		font-size: 21.33px;
+	}
+}
+
+@media (min-width: 2750px) {
+	:root {
+		font-size: 32px
+	}
+}
+
+*::-webkit-scrollbar {
+	width: .185vh;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: #FFF;
+	box-shadow: 0 0 2.03vh #fff;
+}
+
+*::-webkit-scrollbar-track {
+	background: rgba(255, 255, 255, .19);
+}
+
+.panel-bg {
+	--tw-bg-opacity: 1;
+	background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.text-outline {
+	text-shadow: -1px 1px 0 var(--tw-shadow-color), 1px 1px 0 var(--tw-shadow-color), -1px -1px 0 var(--tw-shadow-color), 1px -1px 0 var(--tw-shadow-color);
+}
+
+.slide-right-enter-active,
+.slide-right-exit-active {
+	transition: opacity .3s, transform .3s;
+}
+
+.slide-right-enter,
+.slide-right-exit-to {
+	transform: translate(-35%);
+	opacity: 0;
+}
+
+.slide-right-enter {
+	transform: translate(-35%);
+}
+
+.hover\:bg-gray-200\/20:hover {
+	background-color: #e5e7eb33;
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "CommonJS",
+    "types": ["@citizenfx/server", "@types/node"],
+    "lib": ["es2017"],
+    "baseUrl": "../",
+    "paths": {
+      "@shared/*": ["shared/*"],
+      "@cpx/*": ["shared/cpx/*"],
+      "@cool-sdk/*": ["../../../../../@cool-sdk/src/*"]
+    }
+  },
+  "include": ["./**/*", "../shared"],
+  "exclude": ["**/node_modules", "**/__tests__/*"]
+}

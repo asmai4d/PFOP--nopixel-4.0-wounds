@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: calc(.092592592vh * 10);
+
+    .title {
+        color: #00f8b9;
+        text-shadow: 0px calc(.092592592vh * 4) calc(.092592592vh * 28) rgba(0, 248, 185, .55);
+        font-family: Gilroy;
+        font-size: calc(.092592592vh * 20);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 108.5%;
+
+        &.line {
+            background: radial-gradient(13389.84% 199.21% at 11.13% 25%, #00F8B9 0%, rgba(0, 248, 185, 0) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left: auto;
+        }
+    }
+
+    .description {
+        color: #ffffff8c;
+        font-family: Gilroy;
+        font-size: 1.29vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 108.5%
+    }
+}
